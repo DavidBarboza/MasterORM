@@ -5,12 +5,11 @@ import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.field.ForeignCollectionField;
 import com.j256.ormlite.table.DatabaseTable;
 
-import java.util.ArrayList;
 
 /**
  * Created by dbarboza on 28/10/2016.
  */
-@DatabaseTable
+@DatabaseTable(tableName = "SalesOrder")
 public class SalesOrder {
 
     @DatabaseField(generatedId = true)

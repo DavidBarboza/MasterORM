@@ -6,7 +6,7 @@ import com.j256.ormlite.table.DatabaseTable;
 /**
  * Created by dbarboza on 14/09/2016.
  */
-@DatabaseTable
+@DatabaseTable(tableName = "SalesLine")
 public class SalesLine {
 
     public static final String SALESORDER_ID = "salesorder_id";

@@ -6,7 +6,7 @@ import com.j256.ormlite.table.DatabaseTable;
 /**
  * Created by dbarboza on 30/09/2016.
  */
-@DatabaseTable
+@DatabaseTable(tableName = "Customer")
 public class Customer {
 
     @DatabaseField(id = true)
