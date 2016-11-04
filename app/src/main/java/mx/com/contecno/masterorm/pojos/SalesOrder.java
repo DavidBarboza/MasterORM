@@ -13,7 +13,7 @@ import com.j256.ormlite.table.DatabaseTable;
 public class SalesOrder {
 
     @DatabaseField(generatedId = true)
-    private int salesId;
+    private int salesOrderId;
 
     @DatabaseField(canBeNull = false, foreign = true)
     private Customer customer;

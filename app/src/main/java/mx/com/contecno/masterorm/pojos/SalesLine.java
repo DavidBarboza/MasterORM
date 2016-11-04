@@ -50,7 +50,6 @@ public class SalesLine {
         this.salesQty = salesQty;
     }
 
-
     public String getStatus() {
         return status;
     }
