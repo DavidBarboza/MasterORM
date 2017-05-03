@@ -9,21 +9,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.j256.ormlite.android.apptools.OpenHelperManager;
 import com.j256.ormlite.dao.Dao;
 
 import java.sql.SQLException;
-import java.util.List;
 
-import mx.com.contecno.masterorm.pojos.Customer;
-import mx.com.contecno.masterorm.pojos.Item;
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
-import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
+import mx.com.contecno.masterorm.Model.Customer;
+import mx.com.contecno.masterorm.Model.Item;
 
 /**
  * Created by BenjiGoenitz on 4/18/2016.

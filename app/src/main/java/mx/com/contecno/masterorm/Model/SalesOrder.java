@@ -1,4 +1,4 @@
-package mx.com.contecno.masterorm.pojos;
+package mx.com.contecno.masterorm.Model;
 
 import com.j256.ormlite.dao.ForeignCollection;
 import com.j256.ormlite.field.DatabaseField;

@@ -1,11 +1,7 @@
 package mx.com.contecno.masterorm;
 
-import android.app.ProgressDialog;
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -16,7 +12,6 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Spinner;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.getbase.floatingactionbutton.FloatingActionsMenu;
@@ -29,15 +24,10 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import mx.com.contecno.masterorm.pojos.Customer;
-import mx.com.contecno.masterorm.pojos.Item;
-import mx.com.contecno.masterorm.pojos.SalesLine;
-import mx.com.contecno.masterorm.pojos.SalesOrder;
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
-import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
+import mx.com.contecno.masterorm.Model.Customer;
+import mx.com.contecno.masterorm.Model.Item;
+import mx.com.contecno.masterorm.Model.SalesLine;
+import mx.com.contecno.masterorm.Model.SalesOrder;
 
 /**
  * Created by BenjiGoenitz on 4/18/2016.

@@ -10,10 +10,10 @@ import com.j256.ormlite.table.TableUtils;
 
 import java.sql.SQLException;
 
-import mx.com.contecno.masterorm.pojos.Customer;
-import mx.com.contecno.masterorm.pojos.Item;
-import mx.com.contecno.masterorm.pojos.SalesLine;
-import mx.com.contecno.masterorm.pojos.SalesOrder;
+import mx.com.contecno.masterorm.Model.Customer;
+import mx.com.contecno.masterorm.Model.Item;
+import mx.com.contecno.masterorm.Model.SalesLine;
+import mx.com.contecno.masterorm.Model.SalesOrder;
 
 /**
  * Created by dbarboza on 30/09/2016.

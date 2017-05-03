@@ -20,7 +20,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import mx.com.contecno.masterorm.pojos.Item;
+import mx.com.contecno.masterorm.Model.Item;
 
 /**
  * Created by dbarboza on 15/09/2016.
